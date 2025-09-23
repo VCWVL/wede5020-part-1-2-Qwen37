@@ -186,4 +186,27 @@ For questions about this project:
 
 ---
 
+# Website Project - Part 2
+## Change Log
+
+### Changes Based on Part 1 Feedback
+- **Date: September 23, 2025**: Fixed HTML semantic structure - replaced divs with proper header, nav, main, section tags
+- **Date: September 23, 2025**: Added alt text to all images for accessibility
+- **Date: September 23, 2025**: Improved form validation attributes
+- **Date: September 23, 2025**: Fixed broken links in navigation
+- **Date: September 23, 2025**: Enhanced responsive design for better mobile experience
+- **Date: September 23, 2025**: Added proper SVG images with meaningful content
+- **Date: September 23, 2025**: Implemented comprehensive contact form with validation
+- **Date: September 23, 2025**: Created multi-page navigation system
+- **Date: September 23, 2025**: Added interactive JavaScript functionality
+
+### Part 2 Improvements
+- Enhanced accessibility with ARIA labels and semantic HTML5
+- Improved cross-browser compatibility testing
+- Optimized performance with efficient CSS and JavaScript
+- Added comprehensive documentation and project structure
+- Implemented professional code organization and comments
+
+---
+
 **Note**: This project demonstrates a complete understanding of modern web development principles and practices as required for the WEDE5020 Part 1 assignment.

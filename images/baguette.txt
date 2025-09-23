@@ -1,0 +1,6 @@
+# Image Placeholder
+
+This is a placeholder for the baguette image.
+Image should be approximately 300x200 pixels.
+
+Recommended image: Classic French baguettes with a crispy golden crust.

@@ -1,0 +1,6 @@
+# Image Placeholder
+
+This is a placeholder for the sourdough bread image.
+Image should be approximately 300x200 pixels.
+
+Recommended image: A close-up photo of artisan sourdough bread with a golden crust.

@@ -1,0 +1,6 @@
+# Image Placeholder
+
+This is a placeholder for the croissants image.
+Image should be approximately 300x200 pixels.
+
+Recommended image: Fresh, golden buttery croissants on a wooden board or plate.

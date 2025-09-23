@@ -1,0 +1,6 @@
+# Image Placeholder
+
+This is a placeholder for the pizza crust image.
+Image should be approximately 300x200 pixels.
+
+Recommended image: Fresh pizza dough or prepared pizza crust ready for toppings.

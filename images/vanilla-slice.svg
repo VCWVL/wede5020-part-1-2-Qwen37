@@ -1,0 +1,68 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pastryBaseGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F7DC6F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D68910;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="custardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FEF9E7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FCF3CF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F4D03F;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="icingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8F9F9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#FDFEFE"/>
+  
+  <!-- Wooden board -->
+  <rect x="80" y="180" width="240" height="80" fill="#D2691E" rx="10" opacity="0.6"/>
+  <rect x="85" y="185" width="230" height="70" fill="#CD853F" rx="8" opacity="0.4"/>
+  
+  <!-- Bottom pastry layer -->
+  <rect x="120" y="200" width="160" height="15" fill="url(#pastryBaseGradient)" rx="2"/>
+  
+  <!-- Custard filling -->
+  <rect x="125" y="185" width="150" height="20" fill="url(#custardGradient)" rx="3"/>
+  
+  <!-- Top pastry layer -->
+  <rect x="120" y="170" width="160" height="15" fill="url(#pastryBaseGradient)" rx="2"/>
+  
+  <!-- White icing -->
+  <rect x="125" y="165" width="150" height="8" fill="url(#icingGradient)" rx="4"/>
+  
+  <!-- Icing drips -->
+  <path d="M 140 173 Q 145 178 150 173" fill="url(#icingGradient)"/>
+  <path d="M 180 173 Q 185 179 190 173" fill="url(#icingGradient)"/>
+  <path d="M 220 173 Q 225 178 230 173" fill="url(#icingGradient)"/>
+  <path d="M 260 173 Q 265 179 270 173" fill="url(#icingGradient)"/>
+  
+  <!-- Slice cuts -->
+  <line x1="200" y1="165" x2="200" y2="215" stroke="#8B4513" stroke-width="2" opacity="0.7"/>
+  <line x1="160" y1="168" x2="160" y2="212" stroke="#8B4513" stroke-width="1.5" opacity="0.5"/>
+  <line x1="240" y1="168" x2="240" y2="212" stroke="#8B4513" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Custard layers visible in cut -->
+  <rect x="195" y="185" width="10" height="20" fill="#F4D03F" opacity="0.8"/>
+  <rect x="155" y="187" width="10" height="18" fill="#F4D03F" opacity="0.6"/>
+  <rect x="235" y="187" width="10" height="18" fill="#F4D03F" opacity="0.6"/>
+  
+  <!-- Pastry texture -->
+  <path d="M 125 175 L 275 175" stroke="#E67E22" stroke-width="1" opacity="0.4"/>
+  <path d="M 125 205 L 275 205" stroke="#E67E22" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Crumbs -->
+  <circle cx="150" cy="220" r="2" fill="#D68910" opacity="0.6"/>
+  <circle cx="180" cy="225" r="1.5" fill="#F39C12" opacity="0.7"/>
+  <circle cx="220" cy="222" r="1" fill="#D68910" opacity="0.5"/>
+  <circle cx="250" cy="218" r="1.5" fill="#F39C12" opacity="0.6"/>
+  
+  <!-- Shadow -->
+  <ellipse cx="205" cy="245" rx="70" ry="10" fill="#000000" opacity="0.1"/>
+  
+  <!-- Text label -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#8B4513">Vanilla Custard Slice</text>
+</svg>

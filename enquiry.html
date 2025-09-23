@@ -7,82 +7,88 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="modern-nav">
         <nav>
             <div class="logo">
-                <h1>Flour Crust</h1>
+                <h1 class="gradient-text glow-text float-animation">Flour Crust</h1>
             </div>
             <ul class="nav-links">
-                <li><a href="homepage.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="enquiry.html" class="active">Enquiry</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="homepage.html" class="nav-item">Home</a></li>
+                <li><a href="about.html" class="nav-item">About</a></li>
+                <li><a href="products.html" class="nav-item">Products</a></li>
+                <li><a href="enquiry.html" class="nav-item active">Enquiry</a></li>
+                <li><a href="contact.html" class="nav-item">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main class="gradient-cool">
         <section class="page-hero">
             <div class="container">
-                <h1>Make an Enquiry</h1>
-                <p>Have questions about our products or services? We'd love to hear from you!</p>
+                <div class="hero-content fade-in-up">
+                    <h1 class="modern-heading glow-text">Make an Enquiry</h1>
+                    <p class="subheading">Have questions about our products or services? We'd love to hear from you!</p>
+                </div>
             </div>
         </section>
 
         <section class="contact-info-section">
             <div class="container">
+                <div class="section-divider"></div>
                 <div class="contact-grid">
-                    <div class="contact-form-section">
-                        <h2>Send Us Your Enquiry</h2>
+                    <div class="contact-form-section modern-card glass-effect hover-scale fade-in-up">
+                        <h2 class="gradient-text">Send Us Your Enquiry</h2>
                         <form class="contact-form" id="enquiryForm">
                             <div class="form-group">
-                                <label for="name">Your Name *</label>
-                                <input type="text" id="name" name="name" required>
+                                <label for="name" class="gradient-text">Your Name *</label>
+                                <input type="text" id="name" name="name" required class="modern-input">
                             </div>
 
                             <div class="form-group">
-                                <label for="email">Email Address *</label>
-                                <input type="email" id="email" name="email" required>
+                                <label for="email" class="gradient-text">Email Address *</label>
+                                <input type="email" id="email" name="email" required class="modern-input">
                             </div>
 
                             <div class="form-group">
-                                <label for="message">Your Message *</label>
-                                <textarea id="message" name="message" rows="6" required placeholder="Please provide details about your enquiry..."></textarea>
+                                <label for="message" class="gradient-text">Your Message *</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Please provide details about your enquiry..." class="modern-input"></textarea>
                             </div>
 
                             <div class="form-group">
-                                <button type="submit" class="submit-button">Send Enquiry</button>
+                                <button type="submit" class="btn-modern pulse-animation">Send Enquiry</button>
                             </div>
                         </form>
                     </div>
 
-                    <div class="contact-details">
-                        <h2>Contact Information</h2>
+                    <div class="contact-details modern-card glass-effect hover-scale fade-in-up">
+                        <h2 class="gradient-text">Contact Information</h2>
+                        <div class="section-divider"></div>
                         <div class="contact-item">
-                            <h3>📞 Phone</h3>
-                            <p><a href="tel:+27211234567">021 123 4567</a></p>
+                            <h3 class="gradient-text">📞 Phone</h3>
+                            <p class="subheading"><a href="tel:+27211234567" class="gradient-text">021 123 4567</a></p>
                         </div>
 
                         <div class="contact-item">
-                            <h3>✉️ Email</h3>
-                            <p><a href="mailto:ST10493304@vcconnect.edu.za">ST10493304@vcconnect.edu.za</a></p>
+                            <h3 class="gradient-text">✉️ Email</h3>
+                            <p class="subheading"><a href="mailto:ST10493304@vcconnect.edu.za" class="gradient-text">ST10493304@vcconnect.edu.za</a></p>
                         </div>
 
                         <div class="contact-item">
-                            <h3>📍 Address</h3>
-                            <p>123 Bakery Lane<br>Cape Town, 8001</p>
+                            <h3 class="gradient-text">📍 Address</h3>
+                            <p class="subheading">123 Bakery Lane<br>Cape Town, 8001</p>
                         </div>
+                        
+                        <button class="btn-modern pulse-animation">Visit Our Store</button>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="modern-nav">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2025 Flour Crust Bakery. All rights reserved.</p>
+                <p class="gradient-text">&copy; 2025 Flour Crust Bakery - Baked with ❤️</p>
             </div>
         </div>
     </footer>

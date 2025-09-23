@@ -1,0 +1,51 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pastryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F7DC6F;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#F39C12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D68910;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="cinnamonGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#A0522D;stop-opacity:0.3" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#FDF5E6"/>
+  
+  <!-- Parchment paper -->
+  <rect x="50" y="100" width="300" height="150" fill="#F5F5DC" stroke="#E8E8E8" stroke-width="1" rx="10"/>
+  
+  <!-- Main swirled pastry -->
+  <circle cx="200" cy="175" r="80" fill="url(#pastryGradient)"/>
+  
+  <!-- Swirl pattern -->
+  <path d="M 200 175 m -60,0 a 60,60 0 1,1 120,0 a 45,45 0 1,1 -90,0 a 30,30 0 1,1 60,0 a 15,15 0 1,1 -30,0" 
+        stroke="#8B4513" stroke-width="4" fill="none" opacity="0.8"/>
+  
+  <!-- Inner swirl details -->
+  <path d="M 200 175 m -40,0 a 40,40 0 1,1 80,0 a 25,25 0 1,1 -50,0 a 10,10 0 1,1 20,0" 
+        stroke="#A0522D" stroke-width="3" fill="none" opacity="0.6"/>
+  
+  <!-- Cinnamon dusting -->
+  <circle cx="200" cy="175" r="75" fill="url(#cinnamonGradient)"/>
+  
+  <!-- Golden crust highlights -->
+  <path d="M 140 130 Q 200 110 260 130" stroke="#F4D03F" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M 130 175 Q 200 155 270 175" stroke="#F4D03F" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 140 220 Q 200 200 260 220" stroke="#F4D03F" stroke-width="3" fill="none" opacity="0.7"/>
+  
+  <!-- Flaky edges -->
+  <circle cx="200" cy="175" r="82" stroke="#D68910" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  
+  <!-- Sugar crystals -->
+  <circle cx="180" cy="155" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="220" cy="165" r="1.5" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="190" cy="195" r="2.5" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="210" cy="185" r="1" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="170" cy="175" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Text label -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#8B4513">Cinnamon Swirled Pastry</text>
+</svg>

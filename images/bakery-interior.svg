@@ -1,0 +1,82 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="woodGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A0522D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="doughGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8DC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5DEB3;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="flourGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5F5F5;stop-opacity:0.3" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background - bakery interior -->
+  <rect width="400" height="300" fill="#F5F1EB"/>
+  
+  <!-- Wooden countertop -->
+  <rect y="150" width="400" height="150" fill="url(#woodGradient)"/>
+  
+  <!-- Wood grain lines -->
+  <path d="M 0 170 L 400 165" stroke="#654321" stroke-width="2" opacity="0.6"/>
+  <path d="M 0 190 L 400 188" stroke="#654321" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 0 220 L 400 215" stroke="#654321" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Cutting board -->
+  <rect x="150" y="160" width="120" height="80" fill="#DEB887" rx="5"/>
+  <rect x="155" y="165" width="110" height="70" fill="#F5DEB3" rx="3"/>
+  
+  <!-- Dough being rolled -->
+  <ellipse cx="210" cy="200" rx="45" ry="30" fill="url(#doughGradient)"/>
+  
+  <!-- Rolling pin -->
+  <rect x="120" y="195" width="60" height="8" fill="#8B4513" rx="4"/>
+  <circle cx="125" cy="199" r="6" fill="#654321"/>
+  <circle cx="175" cy="199" r="6" fill="#654321"/>
+  
+  <!-- Flour scattered around -->
+  <circle cx="180" cy="180" r="12" fill="url(#flourGradient)"/>
+  <circle cx="240" cy="190" r="8" fill="url(#flourGradient)"/>
+  <circle cx="200" cy="230" r="6" fill="url(#flourGradient)"/>
+  <circle cx="160" cy="210" r="10" fill="url(#flourGradient)"/>
+  <circle cx="250" cy="210" r="7" fill="url(#flourGradient)"/>
+  
+  <!-- Small flour particles -->
+  <circle cx="170" cy="185" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="220" cy="175" r="1.5" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="190" cy="240" r="2.5" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="260" cy="200" r="1" fill="#FFFFFF" opacity="0.9"/>
+  
+  <!-- Kitchen background elements -->
+  <rect x="0" y="0" width="400" height="150" fill="#F8F8F8"/>
+  
+  <!-- Shelves -->
+  <rect x="20" y="40" width="360" height="8" fill="#8B4513"/>
+  <rect x="20" y="80" width="360" height="8" fill="#8B4513"/>
+  <rect x="20" y="120" width="360" height="8" fill="#8B4513"/>
+  
+  <!-- Bread loaves on shelves -->
+  <ellipse cx="60" cy="35" rx="20" ry="8" fill="#D2691E"/>
+  <ellipse cx="100" cy="35" rx="18" ry="7" fill="#CD853F"/>
+  <ellipse cx="140" cy="35" rx="22" ry="9" fill="#D2691E"/>
+  
+  <ellipse cx="80" cy="75" rx="19" ry="8" fill="#DEB887"/>
+  <ellipse cx="120" cy="75" rx="21" ry="9" fill="#D2691E"/>
+  <ellipse cx="160" cy="75" rx="17" ry="7" fill="#CD853F"/>
+  
+  <!-- Pastries on bottom shelf -->
+  <circle cx="50" cy="115" r="6" fill="#F4A460"/>
+  <circle cx="70" cy="115" r="5" fill="#F39C12"/>
+  <circle cx="90" cy="115" r="6" fill="#F4A460"/>
+  <circle cx="110" cy="115" r="5" fill="#F39C12"/>
+  
+  <!-- Warm lighting effect -->
+  <ellipse cx="200" cy="50" rx="150" ry="30" fill="#FFF8DC" opacity="0.3"/>
+  
+  <!-- Text label -->
+  <text x="200" y="290" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#8B4513">Artisan Baking in Progress</text>
+</svg>

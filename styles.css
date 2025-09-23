@@ -330,12 +330,52 @@ input:focus {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.modern-nav nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.modern-nav .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.modern-nav .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
 }
 
 .nav-item {
     position: relative;
     padding: 10px 20px;
     transition: all 0.3s ease;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+.nav-item:hover {
+    background: rgba(102, 126, 234, 0.1);
+    transform: translateY(-2px);
+}
+
+.nav-item.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
 }
 
 .nav-item::after {
@@ -348,6 +388,7 @@ input:focus {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     transition: all 0.3s ease;
     transform: translateX(-50%);
+    border-radius: 2px;
 }
 
 .nav-item:hover::after {

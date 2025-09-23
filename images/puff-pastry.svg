@@ -1,0 +1,61 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="puffGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F7DC6F;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#F39C12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D68910;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="meringueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#F8F9F9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F4D03F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#FDFEFE"/>
+  
+  <!-- Plate -->
+  <ellipse cx="200" cy="250" rx="120" ry="15" fill="#FFFFFF" stroke="#E5E7E9" stroke-width="2"/>
+  
+  <!-- Bottom pastry layer -->
+  <rect x="120" y="200" width="160" height="20" fill="url(#puffGradient)" rx="3"/>
+  
+  <!-- Puff pastry layers -->
+  <rect x="125" y="195" width="150" height="5" fill="#F4D03F" opacity="0.8" rx="2"/>
+  <rect x="127" y="190" width="146" height="5" fill="#F7DC6F" opacity="0.7" rx="2"/>
+  <rect x="129" y="185" width="142" height="5" fill="#F4D03F" opacity="0.6" rx="2"/>
+  <rect x="131" y="180" width="138" height="5" fill="#F7DC6F" opacity="0.5" rx="2"/>
+  <rect x="133" y="175" width="134" height="5" fill="#F4D03F" opacity="0.4" rx="2"/>
+  <rect x="135" y="170" width="130" height="5" fill="#F7DC6F" opacity="0.3" rx="2"/>
+  
+  <!-- Middle section -->
+  <rect x="140" y="165" width="120" height="15" fill="#F8F9F9" rx="2"/>
+  
+  <!-- Top pastry layer -->
+  <rect x="130" y="150" width="140" height="15" fill="url(#puffGradient)" rx="3"/>
+  
+  <!-- Meringue topping -->
+  <ellipse cx="200" cy="140" rx="70" ry="25" fill="url(#meringueGradient)"/>
+  
+  <!-- Meringue texture -->
+  <path d="M 140 140 Q 160 125 180 140 Q 200 125 220 140 Q 240 125 260 140" 
+        stroke="#F4D03F" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 150 135 Q 170 120 190 135 Q 210 120 230 135 Q 250 120 270 135" 
+        stroke="#F39C12" stroke-width="1.5" fill="none" opacity="0.4"/>
+  
+  <!-- Toasted edges -->
+  <ellipse cx="200" cy="140" rx="68" ry="23" stroke="#D68910" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Flaky pastry details -->
+  <path d="M 125 200 L 135 195" stroke="#E67E22" stroke-width="1" opacity="0.6"/>
+  <path d="M 145 198 L 155 193" stroke="#E67E22" stroke-width="1" opacity="0.6"/>
+  <path d="M 165 201 L 175 196" stroke="#E67E22" stroke-width="1" opacity="0.6"/>
+  <path d="M 185 199 L 195 194" stroke="#E67E22" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Shadow -->
+  <ellipse cx="205" cy="235" rx="60" ry="8" fill="#000000" opacity="0.1"/>
+  
+  <!-- Text label -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#D68910">Layered Puff Pastry</text>
+</svg>

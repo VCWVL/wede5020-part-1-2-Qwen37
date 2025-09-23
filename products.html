@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Flour Crust</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Flour Crust</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Our Products</h1>
+                <p>Discover our full range of artisan breads, pastries, and specialty items</p>
+            </div>
+        </section>
+
+        <section class="product-categories">
+            <div class="container">
+                <div class="category-tabs">
+                    <button class="tab-button active" data-category="all">All Products</button>
+                    <button class="tab-button" data-category="breads">Artisan Breads</button>
+                    <button class="tab-button" data-category="pastries">Pastries</button>
+                    <button class="tab-button" data-category="specialty">Specialty Items</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-grid">
+            <div class="container">
+                <div class="product-items">
+                    <!-- Breads -->
+                    <div class="product-item" data-category="breads" id="sourdough">
+                        <div class="product-image">
+                            <img src="images/sourdough.jpg" alt="Sourdough Bread">
+                            <div class="product-badge">Signature</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Artisan Sourdough</h3>
+                            <p class="product-description">Our signature sourdough bread, made with a 100-year-old starter and fermented for 24 hours. Features a perfect crust and tangy, complex flavor.</p>
+                            <div class="product-details">
+                                <span class="ingredients">Organic flour, water, salt, natural starter</span>
+                                <span class="allergens">Contains: Gluten</span>
+                            </div>
+                            <div class="product-footer">
+                                <span class="price">R65.00</span>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" data-category="breads" id="baguette">
+                        <div class="product-image">
+                            <img src="images/baguette.jpg" alt="French Baguette">
+                        </div>
+                        <div class="product-info">
+                            <h3>Traditional French Baguette</h3>
+                            <p class="product-description">Classic French baguette with a crispy golden crust and light, airy interior. Perfect for sandwiches or served with cheese and wine.</p>
+                            <div class="product-details">
+                                <span class="ingredients">French flour, water, salt, yeast</span>
+                                <span class="allergens">Contains: Gluten</span>
+                            </div>
+                            <div class="product-footer">
+                                <span class="price">R50.00</span>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" data-category="breads">
+                        <div class="product-image">
+                            <img src="images/pizza-crust.jpg" alt="Pizza Crust">
+                        </div>
+                        <div class="product-info">
+                            <h3>Artisan Pizza Crust</h3>
+                            <p class="product-description">Hand-stretched pizza crust made with Italian 00 flour. Perfect texture for your homemade pizzas. Available in regular and whole wheat.</p>
+                            <div class="product-details">
+                                <span class="ingredients">Italian 00 flour, water, olive oil, salt, yeast</span>
+                                <span class="allergens">Contains: Gluten</span>
+                            </div>
+                            <div class="product-footer">
+                                <span class="price">R47.50</span>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pastries -->
+                    <div class="product-item" data-category="pastries" id="croissants">
+                        <div class="product-image">
+                            <img src="images/croissants.jpg" alt="Buttery Croissants">
+                            <div class="product-badge">Popular</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Buttery Croissants</h3>
+                            <p class="product-description">Flaky, buttery croissants made with French butter and traditional lamination techniques. Available plain, almond, or chocolate.</p>
+                            <div class="product-details">
+                                <span class="ingredients">French flour, butter, milk, eggs, sugar, salt, yeast</span>
+                                <span class="allergens">Contains: Gluten, Dairy, Eggs</span>
+                            </div>
+                            <div class="product-footer">
+                                <span class="price">R32.50</span>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" data-category="pastries">
+                        <div class="product-image">
+                            <div class="placeholder-image">🥐</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Pain au Chocolat</h3>
+                            <p class="product-description">Classic French pastry with rich dark chocolate batons wrapped in buttery, flaky croissant dough. A perfect breakfast treat.</p>
+                            <div class="product-details">
+                                <span class="ingredients">French flour, butter, dark chocolate, milk, eggs, sugar</span>
+                                <span class="allergens">Contains: Gluten, Dairy, Eggs</span>
+                            </div>
+                            <div class="product-footer">
+                                <span class="price">R38.00</span>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" data-category="pastries">
+                        <div class="product-image">
+                            <div class="placeholder-image">🧁</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Danish Pastries</h3>
+                            <p class="product-description">Assorted Danish pastries including apple, cherry, and cream cheese varieties. Made with our signature laminated dough.</p>
+                            <div class="product-details">
+                                <span class="ingredients">Flour, butter, fruit fillings, cream cheese, eggs</span>
+                                <span class="allergens">Contains: Gluten, Dairy, Eggs</span>
+                            </div>
+                            <div class="product-footer">
+                                <span class="price">R42.00</span>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Specialty Items -->
+                    <div class="product-item" data-category="specialty">
+                        <div class="product-image">
+                            <div class="placeholder-image">🍞</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Gluten-Free Bread</h3>
+                            <p class="product-description">Delicious gluten-free bread made with rice flour and ancient grains. Soft texture and great taste without the gluten.</p>
+                            <div class="product-details">
+                                <span class="ingredients">Rice flour, tapioca starch, quinoa flour, xanthan gum</span>
+                                <span class="allergens">Gluten-Free</span>
+                            </div>
+                            <div class="product-footer">
+                                <span class="price">R75.00</span>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" data-category="specialty">
+                        <div class="product-image">
+                            <div class="placeholder-image">🥖</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Whole Grain Seeded Bread</h3>
+                            <p class="product-description">Hearty whole grain bread packed with sunflower seeds, pumpkin seeds, and flax seeds. High in fiber and nutrients.</p>
+                            <div class="product-details">
+                                <span class="ingredients">Whole wheat flour, seeds, honey, olive oil</span>
+                                <span class="allergens">Contains: Gluten</span>
+                            </div>
+                            <div class="product-footer">
+                                <span class="price">R68.00</span>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" data-category="specialty">
+                        <div class="product-image">
+                            <div class="placeholder-image">🍰</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Custom Celebration Cakes</h3>
+                            <p class="product-description">Beautiful custom cakes for birthdays, weddings, and special occasions. Order 48 hours in advance.</p>
+                            <div class="product-details">
+                                <span class="ingredients">Varies by design and flavor</span>
+                                <span class="allergens">May contain: Gluten, Dairy, Eggs, Nuts</span>
+                            </div>
+                            <div class="product-footer">
+                                <span class="price">From R450.00</span>
+                                <button class="add-to-cart">Order Custom</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="order-info">
+            <div class="container">
+                <h2>Ordering Information</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <h3>🕒 Fresh Daily</h3>
+                        <p>All items are baked fresh daily. Limited quantities available - first come, first served!</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📞 Pre-Orders</h3>
+                        <p>Call us at (021) 555-0123 to pre-order your favorites and guarantee availability.</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>🚚 Delivery</h3>
+                        <p>Local delivery available for orders over R200. Same-day delivery for orders placed before 10 AM.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Flour Crust Bakery</h3>
+                    <p>Crafting exceptional baked goods since 2005</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>123 Baker Street<br>Cape Town, 8001<br>(021) 555-0123</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Flour Crust Bakery. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -3,42 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiry - Flour & Crust</title>
+    <title>Enquiry - Flour Crust</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body bgcolor="#ffcccb">
+<body>
     <header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="products.html">Products</a>
-            <a href="enquiry.html">Enquiry</a>
-            <a href="contact.html">Contact</a>
+            <div class="logo">
+                <h1>Flour Crust</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html" class="active">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
-    
+
     <main>
-        <h1>Contact Us</h1>
-        <form>
-            <label>Name:</label>
-            <input type="text" name="name"><br><br>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Make an Enquiry</h1>
+                <p>Have questions about our products or services? We'd love to hear from you!</p>
+            </div>
+        </section>
 
-            <label>Email:</label>
-            <input type="email" name="email"><br><br>
-            
-            <label>Message:</label>
-            <textarea name="message"></textarea><br><br>
-            
-            <input type="submit" value="Send">
-        </form>
+        <section class="contact-info-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form-section">
+                        <h2>Send Us Your Enquiry</h2>
+                        <form class="contact-form" id="enquiryForm">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
 
-        <h2>Contact Us</h2>
-        <p>Phone: 021 123 4567</p>
-        <p>Email: <a href="mailto:ST10493304@vcconnect.edu.za">ST10493304@vcconnect.edu.za</a></p>
-        <p>Address: 123 Bakery Lane, Cape Town</p>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Your Message *</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Please provide details about your enquiry..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="submit-button">Send Enquiry</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="contact-details">
+                        <h2>Contact Information</h2>
+                        <div class="contact-item">
+                            <h3>📞 Phone</h3>
+                            <p><a href="tel:+27211234567">021 123 4567</a></p>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>✉️ Email</h3>
+                            <p><a href="mailto:ST10493304@vcconnect.edu.za">ST10493304@vcconnect.edu.za</a></p>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>📍 Address</h3>
+                            <p>123 Bakery Lane<br>Cape Town, 8001</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Flour & Crust Bakery</p>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 Flour Crust Bakery. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

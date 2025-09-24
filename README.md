@@ -1,4 +1,4 @@
-# Flour Crust ## 📸 Responsiv## 🗂️ Project Structures
+# Flour Crust ## 📸 Responsive 🗂️ Project Structures
 
 The website is fully responsive and adapts beautifully to all screen sizes:
 

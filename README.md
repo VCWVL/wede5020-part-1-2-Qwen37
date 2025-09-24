@@ -207,6 +207,12 @@ For questions about this project:
 - Added comprehensive documentation and project structure
 - Implemented professional code organization and comments
 
+## References
+
+- MDN Web Docs. (2023). CSS Grid Layout. https://developer.mozilla.org/
+- W3Schools. (2023). CSS Media Queries. https://www.w3schools.com/
+- Google Fonts. (2023). Typography Guide. https://fonts.google.com/
+
 ---
 
 **Note**: This project demonstrates a complete understanding of modern web development principles and practices as required for the WEDE5020 Part 1 assignment.

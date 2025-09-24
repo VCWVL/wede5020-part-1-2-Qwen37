@@ -1,5 +1,20 @@
-# Flour Crust Bakery Website
+# Flour Crust ## 📸 Responsive Design Screenshots
 
+The website is fully responsive and adapts beautifully to all screen sizes:
+
+### 📱 Mobile View (480px)
+![Mobile Screenshot](images/mobile.view.png)
+*Optimized mobile layout with vertical navigation and touch-friendly buttons*
+
+### 📟 Tablet View (768px)
+![Tablet Screenshot](images/tablet.View.png)
+*Tablet-optimized layout balancing content density and readability*
+
+### 💻 Desktop View (1200px+)
+![Desktop Screenshot](images/desktop.View.png)
+*Full desktop experience with horizontal navigation and expanded content layout*
+
+These screenshots demonstrate the website's responsive design capabilities across different viewport sizes, ensuring an optimal user experience on all devices.
 ## WEDE5020 Part 1 Assignment
 
 A responsive multi-page website for Flour Crust, an artisan bakery specializing in traditional European baking methods and premium baked goods.

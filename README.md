@@ -1,4 +1,4 @@
-# Flour Crust ## 📸 Responsive Design Screenshots
+# Flour Crust ## 📸 Responsiv## 🗂️ Project Structures
 
 The website is fully responsive and adapts beautifully to all screen sizes:
 
@@ -239,6 +239,29 @@ For questions about this project:
 - Optimized performance with efficient CSS and JavaScript
 - Added comprehensive documentation and project structure
 - Implemented professional code organization and comments
+
+## 📸 Part 2: Responsive Design Screenshots
+
+The website demonstrates full responsive design capabilities with media queries and adaptive layouts:
+
+### 📱 Mobile View (480px)
+![Mobile Screenshot](https://github.com/VCWVL/wede5020-part-1-Qwen37/raw/master/images/mobile.view.png)
+*Mobile-first design with vertical navigation and touch-optimized interface*
+
+### 📟 Tablet View (768px)
+![Tablet Screenshot](https://github.com/VCWVL/wede5020-part-1-Qwen37/raw/master/images/tablet.View.png)
+*Tablet breakpoint showing adaptive grid layouts and optimized spacing*
+
+### 💻 Desktop View (1200px+)
+![Desktop Screenshot](https://github.com/VCWVL/wede5020-part-1-Qwen37/raw/master/images/desktop.View.png)
+*Full desktop experience with horizontal navigation and expanded content areas*
+
+**Part 2 Technical Implementation:**
+- CSS Grid and Flexbox for responsive layouts
+- Media queries for breakpoint management
+- Mobile-first responsive design approach
+- Cross-device compatibility testing
+- Performance optimization across all viewport sizes
 
 ## References
 

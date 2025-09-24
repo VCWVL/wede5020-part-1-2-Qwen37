@@ -12,7 +12,25 @@ This website showcases a modern, professional bakery website built with HTML5, C
 
 Open `index.html` in your browser to view the website. The site will automatically redirect to the homepage.
 
-## 🗂️ Project Structure
+## � Responsive Design Screenshots
+
+The website is fully responsive and adapts beautifully to all screen sizes:
+
+### 📱 Mobile View (480px)
+![Mobile Screenshot](https://github.com/user-attachments/assets/mobile-view-480px.png)
+*Optimized mobile layout with vertical navigation and touch-friendly buttons*
+
+### 📟 Tablet View (768px)
+![Tablet Screenshot](https://github.com/user-attachments/assets/tablet-view-768px.png)
+*Tablet-optimized layout balancing content density and readability*
+
+### 💻 Desktop View (1200px+)
+![Desktop Screenshot](https://github.com/user-attachments/assets/desktop-view-1200px.png)
+*Full desktop experience with horizontal navigation and expanded content layout*
+
+These screenshots demonstrate the website's responsive design capabilities across different viewport sizes, ensuring an optimal user experience on all devices.
+
+## �🗂️ Project Structure
 
 ```
 flour-crust-website/
